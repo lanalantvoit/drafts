@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Works</title>
+    <link rel="stylesheet" href="/css.css">
+</head>
+<body>
+
+    <h1>Text Works</h1>
+
+    <div>
+        <button class="filter-btn" onclick="filterPosts('all')">All</button>
+        <button class="filter-btn" onclick="filterPosts('category1')">english</button>
+        <button class="filter-btn" onclick="filterPosts('category2')">norsk</button>
+        <button class="filter-btn" onclick="filterPosts('category3')">українська</button>
+        <!-- Add more buttons for additional categories -->
+
+        <!-- Example posts -->
+
+        <div class="post category1">
+            <h2>Post 2</h2>
+            <div class="post-content">
+                <div class="post-image">
+                    <img src="image1.jpg" alt="Image for Post 1">
+                </div>
+                <div class="post-text">
+                    <p>Date: January 15, 2024</p>
+                    <p>This is a post in Category 1.</p>
+                    <button onclick="redirectTo('your_link_for_post1')">Read More</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="post category2">
+            <h2>Gjennom glasset</h2>
+            <div class="post-content">
+                <div class="post-image">
+                    <img src="image1.jpg" alt="Image for Post 1">
+                </div>
+                <div class="post-text">
+                    <p>Date: October 15, 2023</p>
+                    <p>Jeg føler meg som en fisk i et lite akvarium midt i et iskaldt hav. Det er fisk rundt meg, på andre siden av glasset. De ser på meg og jeg ser på dem. Vi venter, og ingenting skjer.</p>
+                    <button onclick="redirectTo('https://abyssinian-kilogram-f13.notion.site/Gjennom-glasset-e96baa0dc3aa4cc2a5e5bfb1abdff084')">Read More</button>
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- Add more posts with appropriate category classes -->
+    </div>
+
+    <script src="/java.js"></script>
+</body>
+</html>
+
+

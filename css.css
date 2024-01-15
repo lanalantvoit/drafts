@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.filter-btn {
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+}
+
+.post {
+    margin-bottom: 20px;
+}
+
+.post-content {
+    display: flex;
+}
+
+.post-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.post-text {
+    margin-left: 10px;
+}
+
+.more-content {
+    display: none;
+    margin-top: 10px;
+}
+
